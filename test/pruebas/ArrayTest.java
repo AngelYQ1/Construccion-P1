@@ -37,4 +37,14 @@ public class ArrayTest {
             assertTrue(true);
         }
     }
+
+    @BeforeEach
+    public void setUp() {
+        System.out.println("Los valores iniciales del arreglo: {1,2,3} ");
+    }
+
+    @AfterEach
+    public void tearDown() {
+        System.out.println("Aqui finaliza este caso de prueba");
+    }
 }

@@ -6,4 +6,16 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class ArrayTest {
+    @Test
+    public void testSize() {
+    }
+
+    @Test
+    public void testToString() {
+    }
+
+    @Test
+    public void testSetElementAt() {
+    }
+
 }
